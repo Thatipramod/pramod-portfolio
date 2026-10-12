@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio website of Thati Pramod, an AI and Machine Learning student." />
+  <title>Thati Pramod | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+  <!-- Navigation -->
+  <header class="header">
+    <nav class="navbar container">
+      <a class="logo" href="#home">Thati Pramod<span>.</span></a>
+
+      <button class="menu-button" id="menuButton" aria-label="Open navigation menu" aria-expanded="false">Menu</button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+        <a class="resume-link" href="https://drive.google.com/file/d/1kko_74HSIrlFy8IhVKhzCAiBQ6cvvTpd/view?usp=drive_link" target="_blank" rel="noopener">Download Resume ↗</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Home -->
+    <section class="hero container" id="home">
+      <div class="hero-text">
+        <p class="small-title">Hello I AM</p>
+        <h1>Thati Pramod</h1>
+        <h2 class="rotating-role" id="rotatingRole">AIML Student &amp; Aspiring Data Analyst</h2>
+        <p class="hero-description">
+          B.Tech CSE (AI &amp; ML) student building practical projects with data, Python, and machine learning.
+        </p>
+        <div class="button-group">
+          <a class="button primary-button" href="#projects">View My Projects</a>
+          <a class="button secondary-button" href="mailto:pramodthati03@gmail.com">Contact Me</a>
+        </div>
+      </div>
+
+      <aside class="quick-info tilt-card" data-tilt aria-label="Quick introduction">
+        <p class="status"><span></span> Open to internships</p>
+        <h3>Quick profile</h3>
+        <dl>
+          <div><dt>Focus</dt><dd>Data Analytics &amp; ML</dd></div>
+          <div><dt>Education</dt><dd>B.Tech CSE (AI &amp; ML)</dd></div>
+          <div><dt>Location</dt><dd>Hyderabad, India</dd></div>
+        </dl>
+      </aside>
+    </section>
+
+    <!-- About -->
+    <section class="section section-light" id="about">
+      <div class="container">
+        <div class="two-column">
+        <div>
+          <p class="small-title">ABOUT ME</p>
+          <h2 class="section-heading">A student who enjoys learning by building.</h2>
+        </div>
+        <div class="section-content">
+          <p>I am pursuing a B.Tech in Computer Science and Engineering at Teegala Krishna Reddy College of Engineering, Hyderabad, with a specialization in Artificial Intelligence and Machine Learning.</p>
+          <p>My strengths include Python, SQL, data analysis, and basic machine learning. I have worked on prediction and classification projects, where I practiced data cleaning, exploratory analysis, model training, and evaluation.</p>
+          <p>I am also building confidence with Pandas, NumPy, Scikit-learn, Power BI, Excel, Matplotlib, and Streamlit. These tools help me prepare data, find useful insights, present results clearly, and turn an idea into a simple working application.</p>
+          <p>My goal is to grow into a data analyst and, over time, a data scientist who creates useful solutions for real-world problems.</p>
+        </div>
+        </div>
+
+        <div class="about-introduction">
+          <p class="availability-line"><span></span> Open to internship opportunities</p>
+          <div class="achievement-grid" aria-label="Portfolio highlights">
+            <article><strong>01</strong><span>Month of virtual internship experience</span></article>
+            <article><strong>03+</strong><span>Machine learning and data projects</span></article>
+            <article><strong>04</strong><span>Certificates completed</span></article>
+            <article><strong>9.0</strong><span>Current B.Tech CGPA</span></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <div class="container">
+        <p class="small-title">PROJECTS</p>
+        <h2 class="section-heading">Selected work</h2>
+        <p class="section-intro">A few projects where I used data, Python, and machine learning.</p>
+
+        <!-- Copy one project-card article to add another project. The layout automatically creates new rows of three cards. -->
+        <div class="project-grid">
+          <article class="project-card tilt-card" data-tilt>
+            <p class="project-number">01</p>
+            <p class="project-type">Machine Learning</p>
+            <h3>House Price Prediction</h3>
+            <p>A machine learning project that predicts house prices from housing data. I worked with preprocessing, feature selection, and model evaluation.</p>
+            <div class="tags"><span>Python</span><span>Pandas</span><span>Scikit-learn</span><span>Streamlit</span></div>
+            <div class="project-links">
+              <a href="https://github.com/Thatipramod/house-price-prediction" target="_blank" rel="noopener">View Code ↗</a>
+              <a href="https://houseprice-prediction1.streamlit.app/" target="_blank" rel="noopener">Live Demo ↗</a>
+            </div>
+          </article>
+
+          <article class="project-card tilt-card" data-tilt>
+            <p class="project-number">02</p>
+            <p class="project-type">Machine Learning</p>
+            <h3>Spam Detection System</h3>
+            <p>A text classification project that detects spam messages. I compared classification algorithms and selected the strongest model.</p>
+            <div class="tags"><span>Python</span><span>NLP</span><span>Classification</span><span>Streamlit</span></div>
+            <div class="project-links">
+              <a href="https://github.com/Thatipramod/spam-detection-ml" target="_blank" rel="noopener">View Code ↗</a>
+              <a href="https://spam-predictor.streamlit.app/Spam_Predictor" target="_blank" rel="noopener">Live Demo ↗</a>
+            </div>
+          </article>
+
+          <article class="project-card tilt-card" data-tilt>
+            <p class="project-number">03</p>
+            <p class="project-type">Data Science</p>
+            <h3>Sales Prediction Analytics</h3>
+            <p>A sales prediction application that uses advertising data to estimate sales and present the result in a simple Streamlit interface.</p>
+            <div class="tags"><span>Python</span><span>NumPy</span><span>Matplotlib</span><span>Streamlit</span></div>
+            <div class="project-links">
+              <a href="https://github.com/Thatipramod/codealpha_tasks/tree/main/CodeAlpha_sales_prediction" target="_blank" rel="noopener">View Code ↗</a>
+              <a href="https://sales-prediction-analytics.streamlit.app/" target="_blank" rel="noopener">Live Demo ↗</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section section-light" id="skills">
+      <div class="container">
+        <p class="small-title">SKILLS</p>
+        <h2 class="section-heading">My technical toolkit</h2>
+        <div class="skills-grid">
+          <article class="skill-group tilt-card" data-tilt>
+            <h3>SQL &amp; Databases</h3>
+            <div class="skill-tags"><span>SQL (MySQL)</span><span>Joins &amp; Subqueries</span><span>CTEs</span><span>Window Functions</span><span>Aggregate Functions</span><span>Data Modeling</span><span>Data Transformation</span></div>
+          </article>
+          <article class="skill-group tilt-card" data-tilt>
+            <h3>Programming</h3>
+            <div class="skill-tags"><span>Python</span><span>Pandas</span><span>NumPy</span><span>Matplotlib</span><span>Data Cleaning</span><span>EDA</span><span>Feature Engineering</span><span>Jupyter Notebook</span></div>
+          </article>
+          <article class="skill-group tilt-card" data-tilt>
+            <h3>Business Intelligence</h3>
+            <div class="skill-tags"><span>Power BI</span><span>DAX</span><span>Power Query</span><span>Tableau</span><span>Dashboard Development</span><span>Data Visualisation</span></div>
+          </article>
+          <article class="skill-group tilt-card" data-tilt>
+            <h3>Excel &amp; Spreadsheets</h3>
+            <div class="skill-tags"><span>Microsoft Excel</span><span>Pivot Tables</span><span>XLOOKUP</span><span>Lookup Functions</span><span>Advanced Formulas</span></div>
+          </article>
+          <article class="skill-group tilt-card" data-tilt>
+            <h3>Analytics</h3>
+            <div class="skill-tags"><span>KPI Development</span><span>Trend Analysis</span><span>Cohort Analysis</span><span>Descriptive Statistics</span><span>Business Metrics</span><span>Outlier Detection</span><span>Data Quality Checks</span></div>
+          </article>
+          <article class="skill-group tilt-card" data-tilt>
+            <h3>Tools</h3>
+            <div class="skill-tags"><span>Git &amp; GitHub</span><span>VS Code</span><span>Streamlit</span><span>ChatGPT</span><span>Microsoft Copilot</span><span>Prompt Engineering</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section" id="experience">
+      <div class="container">
+        <p class="small-title">EXPERIENCE</p>
+        <h2 class="section-heading">Practical experience</h2>
+        <article class="experience-card tilt-card" data-tilt>
+          <div class="experience-date"><strong>01</strong><span>Month</span></div>
+          <div class="experience-main">
+            <p class="project-type">Virtual Internship</p>
+            <h3>Data Science Intern</h3>
+            <p class="company-name">CodeAlpha</p>
+            <p>Completed a one-month virtual internship focused on applying data science and machine learning concepts through hands-on project work.</p>
+          </div>
+          <div class="experience-certificate">Internship completed<br />Certificate included below</div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Certifications -->
+    <section class="section" id="certifications">
+      <div class="container">
+        <p class="small-title">CERTIFICATIONS</p>
+        <h2 class="section-heading">Learning beyond the classroom</h2>
+        <p class="section-intro">Courses and practical learning milestones that support my work in data and machine learning.</p>
+        <!-- Copy one certificate-card article to add another certificate. The layout automatically creates new rows of two cards. -->
+        <div class="certificate-list">
+          <article class="certificate-card"><p>01</p><div><span class="certificate-type">Masterclass</span><h3>Data Science vs Machine Learning vs Artificial Intelligence</h3><span>Think Champ Pvt. Ltd.</span></div><strong>Completed</strong></article>
+          <article class="certificate-card"><p>02</p><div><span class="certificate-type">Workshop</span><h3>Python Workshop</h3><span>Think Champ Pvt. Ltd.</span></div><strong>Completed</strong></article>
+          <article class="certificate-card"><p>03</p><div><span class="certificate-type">Certificate</span><h3>Data Science Certificate</h3><span>Certification Program</span></div><strong>Completed</strong></article>
+          <article class="certificate-card certificate-featured"><p>04</p><div><span class="certificate-type">Internship</span><h3>Data Science Virtual Internship Certificate</h3><span>CodeAlpha</span></div><strong>Completed</strong></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="section section-light" id="education">
+      <div class="container">
+        <p class="small-title">EDUCATION</p>
+        <h2 class="section-heading">Academic background</h2>
+        <div class="education-list">
+          <article><p class="year">2024 — 2028</p><div><h3>B.Tech in Computer Science and Engineering</h3><p>Teegala Krishna Reddy College of Engineering, Hyderabad</p></div><strong>CGPA: 9.0</strong></article>
+          <article><p class="year">2022 — 2024</p><div><h3>Intermediate Education</h3><p>Sri Chaitanya, Khammam</p></div><strong>98.8%</strong></article>
+          <article><p class="year">2021 — 2022</p><div><h3>Secondary School Certificate</h3><p>Karteek Vidyalayam, Pallipadu</p></div><strong>CGPA: 9.7</strong></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact-section" id="contact">
+      <div class="container contact-content">
+        <div class="contact-heading">
+          <p class="small-title">GET IN TOUCH</p>
+          <h2>Contact</h2>
+          <p>I am actively looking for internship opportunities in data science, machine learning, and analytics. Feel free to reach out.</p>
+          <div class="contact-details">
+          <a href="mailto:pramodthati03@gmail.com"><i class="fa-solid fa-envelope"></i> Email</a>
+          <a href="https://www.linkedin.com/in/thati-pramod" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn ↗</a>
+          <a href="https://github.com/Thatipramod" target="_blank"><i class="fa-brands fa-github"></i> GitHub ↗</a>
+          <a href="https://www.instagram.com/pramod_thati_03/" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram ↗</a>
+          </div>
+
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <label>First Name<input id="name" name="name" type="text" placeholder="Your name" required /></label>
+            <label>Email<input id="email" name="email" type="email" placeholder="your@email.com" required /></label>
+          </div>
+          <label>Subject<input id="subject" name="subject" type="text" placeholder="Job opportunity / Collaboration / etc." required /></label>
+          <label>Message<textarea id="message" name="message" placeholder="Your message..." rows="6" required></textarea></label>
+          <button class="button primary-button" type="submit">Send Message</button>
+          <p class="form-note">This opens your email application with your message ready to send.</p>
+        </form>
+        </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div><a class="logo" href="#home">Thati Pramod<span>.</span></a><p>AI &amp; ML Student · Data Analytics · Machine Learning</p></div>
+        <div><strong>Navigate</strong><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#certifications">Certifications</a></div>
+        <div><strong>Connect</strong><a href="#contact">📧 Email</a><a href="https://www.linkedin.com/in/thati-pramod" target="_blank" rel="noopener">💼 LinkedIn</a><a href="https://github.com/Thatipramod" target="_blank" rel="noopener">🐙 GitHub</a><a href="https://www.instagram.com/YOUR_INSTAGRAM_USERNAME/" target="_blank" rel="noopener">📷 Instagram</a><a href="https://drive.google.com/file/d/1kko_74HSIrlFy8IhVKhzCAiBQ6cvvTpd/view?usp=drive_link" target="_blank" rel="noopener">Download Resume</a></div>
+      </div>
+      <div class="footer-bottom"><p>© <span id="year"></span> Thati Pramod. All rights reserved.</p><a href="mailto:pramodthati03@gmail.com">pramodthati03@gmail.com</a></div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
